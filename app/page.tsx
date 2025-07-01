@@ -29,7 +29,7 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <h1 className="py-3.5 px-0.5 z-10 text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display whitespace-nowrap bg-clip-text">
+      <h1 className="py-3.5 px-0.5 z-10 text-2xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display whitespace-nowrap bg-clip-text">
         Mahima Vaishnav
       </h1>
 
