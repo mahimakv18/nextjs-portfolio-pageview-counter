@@ -19,7 +19,7 @@ const socials = [
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
+		href: "https://github.com/mahimakv18",
 		label: "Github",
 		handle: "chronark",
 	},
