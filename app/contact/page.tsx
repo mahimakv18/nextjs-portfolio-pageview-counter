@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
-
+import { SiGitbook } from "react-icons/si";
 const socials = [
 	{
 		icon: <Linkedin size={20} />,
@@ -21,6 +21,12 @@ const socials = [
 		icon: <Github size={20} />,
 		href: "https://github.com/mahimakv18",
 		label: "Github",
+		handle: "@mahimakv18",
+	},
+	{
+		icon: <SiGitbook size={20} />,
+		href: "https://ahmsec.gitbook.io/ahmsec",
+		label: "Gitbook",
 		handle: "@mahimakv18",
 	},
 ];
