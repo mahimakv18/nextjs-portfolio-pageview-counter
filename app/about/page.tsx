@@ -14,13 +14,13 @@ export default function About() {
                 About Me
               </h1>
               <p className="text-zinc-400 leading-7">
-                Hello! I&apos;m Mahima Vaishnav, a seasoned cybersecurity professional with expertise in Regulatory Compliance, Risk Management, and Enterprise Security Governance. I specialize in aligning security practices with global standards to create robust and compliant security frameworks.
+                Hello! I&apos;m Mahima Vaishnav. I work at the intersection of cybersecurity and compliance — where structure, clarity, and accountability are essential. My focus is on building systems that make sense, scale well, and hold up under scrutiny. Whether it's risk assessments, audit preparation, or aligning policies to real-world operations, I approach every task with intention and a strong sense of ownership.
               </p>
               <p className="text-zinc-400 leading-7">
-                With years of experience in the field, I have helped organizations strengthen their security posture while ensuring compliance with industry regulations. My approach combines technical expertise with strategic thinking to deliver comprehensive security solutions.
+                With hands-on experience in governance, risk, and compliance, I’ve contributed to projects that involve more than just applying frameworks — they require navigating ambiguity, solving unexpected problems, and building from the ground up when needed. I’ve worked across teams, handled audit-facing responsibilities, and led documentation efforts that actually support how organizations work.
               </p>
               <p className="text-zinc-400 leading-7">
-                I am passionate about staying ahead of emerging security threats and continuously expanding my knowledge to implement cutting-edge security measures.
+                What sets my approach apart is an attention to detail that goes beyond documentation. Whether it’s identifying subtle gaps in a process, aligning controls that don’t neatly fit, or preparing for audits that demand precision. The goal isn’t to overcomplicate; it’s to get things right — and make sure they last.
               </p>
             </div>
           </Card>
