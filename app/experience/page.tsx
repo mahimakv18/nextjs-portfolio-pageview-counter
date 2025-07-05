@@ -45,8 +45,7 @@ const experienceData = [
         ]
       }
     ]
-  },
-  
+  }
 ];
 
 export default function Experience() {
@@ -66,51 +65,41 @@ export default function Experience() {
                   <span className="text-zinc-500"> | {item.period}</span>
                 </p>
                 
-                {/* For GRC Analyst with structured format */}
-                {item.sections ? (
-                  <div className="mt-4">
-                    <p className="text-zinc-400 text-sm mb-4">{item.description}</p>
-                    {item.sections.map((section, sectionIdx) => (
-                      <div key={sectionIdx} className="mb-4">
-                        <h3 className="font-semibold text-zinc-300 text-sm mb-3">{section.title}</h3>
-                        <div className="space-y-3">
-                          {section.items.map((point, pointIdx) => (
-                            <div key={pointIdx} className="text-zinc-400 text-sm">
-                              <div className="flex items-start">
-                                <span className="text-zinc-500 mr-2 flex-shrink-0">•</span>
-                                <div>
-                                  <span className="font-medium text-zinc-300">{point.title}</span>
-                                  {point.description && (
-                                    <div className="mt-1">
-                                      {point.description}
-                                    </div>
-                                  )}
-                                  {point.subItems && (
-                                    <div className="mt-2 ml-4 space-y-1">
-                                      {point.subItems.map((subItem, subIdx) => (
-                                        <div key={subIdx} className="flex items-start">
-                                          <span className="text-zinc-500 mr-2 flex-shrink-0">•</span>
-                                          <span>{subItem}</span>
-                                        </div>
-                                      ))}
-                                    </div>
-                                  )}
-                                </div>
+                <div className="mt-4">
+                  <p className="text-zinc-400 text-sm mb-4">{item.description}</p>
+                  {item.sections.map((section, sectionIdx) => (
+                    <div key={sectionIdx} className="mb-4">
+                      <h3 className="font-semibold text-zinc-300 text-sm mb-3">{section.title}</h3>
+                      <div className="space-y-3">
+                        {section.items.map((point, pointIdx) => (
+                          <div key={pointIdx} className="text-zinc-400 text-sm">
+                            <div className="flex items-start">
+                              <span className="text-zinc-500 mr-2 flex-shrink-0">•</span>
+                              <div>
+                                <span className="font-medium text-zinc-300">{point.title}</span>
+                                {point.description && (
+                                  <div className="mt-1">
+                                    {point.description}
+                                  </div>
+                                )}
+                                {point.subItems && (
+                                  <div className="mt-2 ml-4 space-y-1">
+                                    {point.subItems.map((subItem, subIdx) => (
+                                      <div key={subIdx} className="flex items-start">
+                                        <span className="text-zinc-500 mr-2 flex-shrink-0">•</span>
+                                        <span>{subItem}</span>
+                                      </div>
+                                    ))}
+                                  </div>
+                                )}
                               </div>
                             </div>
-                          ))}
-                        </div>
+                          </div>
+                        ))}
                       </div>
-                    ))}
-                  </div>
-                ) : (
-                  /* For existing experiences with simple format */
-                  <ul className="list-disc list-inside text-zinc-400 text-sm space-y-1 mt-2">
-                    {item.details.map((detail, i) => (
-                      <li key={i}>{detail}</li>
-                    ))}
-                  </ul>
-                )}
+                    </div>
+                  ))}
+                </div>
               </div>
             </Card>
           ))}
