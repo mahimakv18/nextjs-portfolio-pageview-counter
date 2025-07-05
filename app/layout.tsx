@@ -6,11 +6,11 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: "Mahima Vaishnav", // Simple string instead of object
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "GRC Analyst with proven expertise in ISO 27001, SOC 2 readiness, RBI & SEBI compliance, and cloud security frameworks—bridging governance and technology to drive secure, audit-ready operations.",
   openGraph: {
     title: "Mahima Vaishnav",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+      "GRC Analyst with proven expertise in ISO 27001, SOC 2 readiness, RBI & SEBI compliance, and cloud security frameworks—bridging governance and technology to drive secure, audit-ready operations.",
     url: "https://mahimavaishnav-portfolio.vercel.app/",
     siteName: "mahimavaishnav-portfolio.vercel.app",
     images: [
